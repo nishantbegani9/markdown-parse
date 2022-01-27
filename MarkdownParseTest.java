@@ -21,5 +21,14 @@ public class MarkdownParseTest {
         assertEquals(expectedList, links); 
     }
 
+    @Test
+    public void GetLinktwo() throws IOException{
+        Path fileName = Path.of("test-file2.md");
+	    String contents = Files.readString(fileName);
+        ArrayList<String> links = MarkdownParse.getLinks(contents);
+        List<String> expectedList = List.of("https://www.google.com");
+        assertEquals(expectedList, links); 
+    }
+
     
 }
