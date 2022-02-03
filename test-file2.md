@@ -1,8 +1,6 @@
-# This test file will break the code
+# Title
 
-Sometimes I want to create some mayhem.
-So lets take a look at this matrix: `[a b c d](but not really). It is a cool matrix.
+[a link!](https://something.com)
+[another link!](some-page.html)
 
-[Hello World](https://www.google.com)
-
-There's More.
+some paragraph text after the links
